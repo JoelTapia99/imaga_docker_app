@@ -1,4 +1,4 @@
-# FINAL PROJECT
+# Proyecto de imagga
 
 Aplicación web que analiza imágenes utilizando el servicio de inteligencia artificial de Imagga.
 
