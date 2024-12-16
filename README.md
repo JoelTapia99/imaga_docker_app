@@ -51,17 +51,17 @@ IMAGGA_ENDPOINT=
 2. **Ejecutar la Instancia**:
 
    ```bash
-   docker run -it -p 7000:5000 flask_meme_app
+   docker run -it -p 5000:5000 flask_meme_app
    ```
 3. **Ejecutar la instancia y almacenarla**:
 
    Este comando correra la instancia de Docker y la almacenara dentro del contexto de Docker.
    ```bash
-   docker run -p 7000:5000 image-analyzer
+   docker run -p 5000:5000 image-analyzer
    ```
 ### Enlace de la aplicacion
 
-    http://localhost:7000
+    http://localhost:5000
 
 
 ### Pasos para la verificación
@@ -70,3 +70,6 @@ Abra http://localhost:5000 en su navegador:
 * Vera tres imágenes mostradas
 * Haga clic en el botón "Analizar"
 * Cada imagen mostrará sus dos etiquetas más relevantes con porcentajes de confianza.
+
+imagen de resultado:
+![Captura de la imagen levantada en local](/docs/result.png)
