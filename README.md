@@ -24,7 +24,7 @@ API_ENDPOINT=
 **Ejecutar la aplicación**: ejecutar el archivo principal `run.py`
 
    ```bash
-      pip index.py
+      pip app.py
    ```
 
 ## Configuración del entorno con Docker
@@ -32,18 +32,18 @@ API_ENDPOINT=
 1. **Generar instancia de Docker**:
 
    ```bash
-   docker build -t flask_meme_app .
+   docker build -t imaga_app .
    ```
 2. **Ejecutar la Instancia**:
 
    ```bash
-   docker run -it -p 5000:5000 flask_meme_app
+   docker run -it -p 5000:5000 imaga_app
    ```
 3. **Ejecutar la instancia y almacenarla**:
 
    Este comando correra la instancia de Docker y la almacenara dentro del contexto de Docker.
    ```bash
-   docker run -p 5000:5000 image-analyzer
+   docker run -p 5000:5000 imaga_app
    ```
 ### Enlace de la aplicacion
 
